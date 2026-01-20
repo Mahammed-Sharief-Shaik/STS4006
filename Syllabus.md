@@ -5,7 +5,7 @@
 - Merge Sort for DLL ✅
 - Minimum Stack ✅
 - The Celebrity Problem ✅
-- Iterative Tower of Hanoi
+- Iterative Tower of Hanoi ✅
 - Stock Span Problem
 - Priority Queue using DLL
 - Sort without Extra Space
