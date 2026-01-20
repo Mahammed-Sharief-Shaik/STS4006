@@ -60,17 +60,20 @@
 #### Space Complexity : O(1)
 
 # 06-01-2026
+
 ### Minimum Stack
+
 - Find the minimum after pop operations
-- Use two stacks 
+- Use two stacks
   1. One Normal for data
-  1. One for storing all the minimum elements 
+  1. One for storing all the minimum elements
 
 ### Stack
+
 - Linear Data structure
 - FIFO
 - LIFO
-- Operations 
+- Operations
   - Push
   - Pop
   - Peek
@@ -82,23 +85,25 @@
 #### Space Complexity : O(n) two stacks (worst case input is in descending order)
 
 # 08-01-2026
+
 ### The Celebrity Problem
 
-- Constraints 
+- Constraints
   1. Eveyone knows them
   1. They don't know anyone
 - Input 2-D matrix : array[i][j]=1 indicates that i knows j else 0
 - Output always 1 celebrity or None
-- if(mat[a][b]==1) a can not be celebrity and b can be 
+- if(mat[a][b]==1) a can not be celebrity and b can be
   push back b
 - if ((matrix[celebrity][i] == 1 || matrix[i][celebrity] == 0))
-                return -1;
-- Either celebrity  knows someone or someone don't know celebrity then he/she is not a celebrity
- 
+  return -1;
+- Either celebrity knows someone or someone don't know celebrity then he/she is not a celebrity
+
 # 09-01-2026
+
 ### Iterative Tower of Hanoi
 
-- 3 poles : 
+- 3 poles :
   1. Source
   1. Destination
   1. Helper or Auxilary
@@ -110,10 +115,18 @@
   1. Source and Destination
   1. Source and Auxilary
   1. Auxilary and Destination
-- if n is even first step is source to Auxilary so swap A and D 
+- if n is even first step is source to Auxilary so swap A and D
+
+# 20-01-2026
+
+### Stock Span Problem
+
+- Number of elements smaller to its left stop if we encounter big element
+- 
+  - 25 8 31 16 64 29 32 7
+  - 1  1 3  1  5  1  2  1
+- Use stack -> store indices
+- monotonic stack 
 
 
 
-
-
- 
