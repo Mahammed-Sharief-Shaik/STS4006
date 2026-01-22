@@ -128,5 +128,18 @@
 - Use stack -> store indices
 - monotonic stack 
 
+# 22-01-2026
+
+### Priority Queue using DLL
+
+### Queues
+- FIFO 
+- LILO
+- Insert : enqueue(), offer(), add()
+- Delete : dequeue(), poll()
+- peek()
+- Data and priority both taken as input
+- Less value == more priority (default)
+- front and rear instead of head and tail
 
 

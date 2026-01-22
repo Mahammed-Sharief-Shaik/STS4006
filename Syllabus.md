@@ -6,8 +6,8 @@
 - Minimum Stack ✅
 - The Celebrity Problem ✅
 - Iterative Tower of Hanoi ✅
-- Stock Span Problem
-- Priority Queue using DLL
+- Stock Span Problem ✅
+- Priority Queue using DLL ✅
 - Sort without Extra Space
 - Stack Permutations
 
