@@ -122,18 +122,18 @@
 ### Stock Span Problem
 
 - Number of elements smaller to its left stop if we encounter big element
-- 
-  - 25 8 31 16 64 29 32 7
-  - 1  1 3  1  5  1  2  1
+- - 25 8 31 16 64 29 32 7
+  - 1 1 3 1 5 1 2 1
 - Use stack -> store indices
-- monotonic stack 
+- monotonic stack
 
 # 22-01-2026
 
 ### Priority Queue using DLL
 
 ### Queues
-- FIFO 
+
+- FIFO
 - LILO
 - Insert : enqueue(), offer(), add()
 - Delete : dequeue(), poll()
@@ -142,4 +142,10 @@
 - Less value == more priority (default)
 - front and rear instead of head and tail
 
+# 23-01-2026
 
+### Sort without extra space
+
+- space complexity must be constant
+- similar to selection sort 
+- 
