@@ -148,4 +148,30 @@
 
 - space complexity must be constant
 - similar to selection sort 
-- 
+
+
+# 23-01-2026
+
+### Stack Permutations
+
+- 13 5 7 
+  - Pemutations : 
+  - 13 5 7
+  - 13 7 5
+  - 5 7 13
+  - 5 13 7
+  - 7 13 5
+  - 7 5 13
+- Not all possible as stack permutations
+- for 13 5 7
+  - Push 13 
+  - pop 13
+  - push 5
+  - pop 5
+  - push 7
+  - pop 7
+  - valid
+- for 7 13 5
+  - not possible as to reach 7 i push all push 13,5,7 then if i pop 7 stack : [13,5] cannot reach 13 without poping 5 so can't get 5 after 13 
+  - invalid
+

@@ -8,7 +8,7 @@
 - Iterative Tower of Hanoi ✅
 - Stock Span Problem ✅
 - Priority Queue using DLL ✅
-- Sort without Extra Space
+- Sort without Extra Space ✅
 - Stack Permutations
 
 # CAT–2 Syllabus
