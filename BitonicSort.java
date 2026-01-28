@@ -25,29 +25,28 @@ public class BitonicSort {
         traverse();
     }
 
-    static void bitonicSort(){
+    static void bitonicSort() {
         Node resultHead = null, resultTail = null;
         Node first = head, last = tail;
 
-        while (first!=last) {
-            if(first.data <= last.data){
-                if(resultHead==null){
+        while (first != last) {
+            if (first.data <= last.data) {
+                if (resultHead == null) {
                     resultHead = first;
                     resultTail = first;
-                    first = first.next;
 
-                }else{
+                } else {
                     resultTail.next = first;
                     first.prev = resultTail;
                     resultTail = resultTail.next;
-                    first = first.next;
                 }
-            }else{
-                if(resultHead==null){
+                first = first.next;
+            } else {
+                if (resultHead == null) {
                     resultHead = last;
                     resultTail = last;
                     last = last.prev;
-                }else{
+                } else {
                     Node temp = last.prev;
                     resultTail.next = last;
                     last.prev = resultTail;
@@ -88,4 +87,3 @@ public class BitonicSort {
     }
 
 }
-

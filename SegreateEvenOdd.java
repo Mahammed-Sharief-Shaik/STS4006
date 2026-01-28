@@ -23,12 +23,12 @@ public class SegreateEvenOdd {
         }
 
         traverseLL();
-        segregate(head);
+        segregate();
         traverseLL();
 
     }
 
-    static void segregate(Node head) {
+    static void segregate() {
         Node curr = head;
         Node evenHead = null;
         Node oddHead = null;
@@ -59,8 +59,16 @@ public class SegreateEvenOdd {
         if (evenHead == null) {
             head = oddHead;
         } else if (oddHead == null) {
-            evenTail.next = null;
+            // evenTail.next = null;
+            head = evenHead;
         } else {
+
+            // odd then even
+            // head = oddHead;
+            // oddTail.next = evenHead;
+            // evenTail.next = null;
+
+            // even then odd
             head = evenHead;
             evenTail.next = oddHead;
             oddTail.next = null;

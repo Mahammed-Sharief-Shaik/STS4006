@@ -9,7 +9,7 @@
 - Stock Span Problem ✅
 - Priority Queue using DLL ✅
 - Sort without Extra Space ✅
-- Stack Permutations
+- Stack Permutations ✅
 
 # CAT–2 Syllabus
 - Maximum Sliding Window

@@ -36,6 +36,7 @@ public class PriorityQueueDLL {
                 newNode.next = temp.next;
                 newNode.next.prev = newNode;
                 temp.next = newNode;
+                newNode.prev = temp;
             }
         }
     }

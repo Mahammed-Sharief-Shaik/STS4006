@@ -19,6 +19,7 @@ public class SortWithoutSpace {
         int n = queue.size();
 
         for (int i = 0; i < n; i++) {
+            // System.out.println(queue);
             int minimumIndex = findMinimumIndex(queue, n - i);
             int minimumValue = -1;
             for (int j = 0; j < n; j++) {
@@ -43,6 +44,7 @@ public class SortWithoutSpace {
             }
             queue.offer(current);
         }
+        System.out.println(queue);
         return minimumIndex;
     }
 }
