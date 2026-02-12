@@ -12,21 +12,18 @@ public class MinimumStack {
 
     public void push(int data) {
         stack.push(data);
-        if (!minStack.isEmpty() && minStack.peek() > data) {
+        if ((!minStack.isEmpty() && data < minStack.peek()) || (minStack.isEmpty()))
             minStack.push(data);
-        } else if (minStack.isEmpty()) {
-            minStack.push(data);
-        }
+
     }
 
     public int pop() {
         if (!stack.isEmpty()) {
-            if (this.peek() == getMin()) {
+            if (stack.peek() == getMin()) {
                 minStack.pop();
             }
             return stack.pop();
         } else {
-
             return Integer.MIN_VALUE;
         }
     }

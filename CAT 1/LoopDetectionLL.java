@@ -3,7 +3,6 @@ import java.util.Scanner;
 class Node {
     int data;
     Node next;
-
     Node(int data) {
         this.data = data;
         this.next = null;
@@ -30,16 +29,18 @@ public class LoopDetectionLL {
         System.out.println(detectLoop(head));
     }
 
-    static boolean detectLoop(Node head){
+    static boolean detectLoop(Node head) {
         Node slow = head, fast = head;
-        while(fast!=null && fast.next!=null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow==fast) return true;
+            if (slow == fast)
+                return true;
         }
         return false;
     }
+
     static void createLoop(int loopNodeData, int last) {
         Node n1 = head; // keep at loop node
         Node n2 = head; // keep at the last node
