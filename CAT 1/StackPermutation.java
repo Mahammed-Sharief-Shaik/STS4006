@@ -17,13 +17,10 @@ public class StackPermutation {
         boolean result = isValidStackPermutation(original, required);
         System.out.println(result ? "Valid" : "Invalid");
     }
-
     static boolean isValidStackPermutation(Queue<Integer> original, Queue<Integer> required) {
         Stack<Integer> stack = new Stack<>();
-
         while (!original.isEmpty()) {
             int temp = original.poll();
-
             if (temp == required.peek()) {
                 required.poll();
                 while (!stack.isEmpty() && stack.peek() == required.peek()) {
@@ -33,10 +30,8 @@ public class StackPermutation {
             } else {
                 stack.push(temp);
             }
-
         }
-
-        return stack.isEmpty();
+        return stack.isEmpty() && original.isEmpty();
 
     }
 }

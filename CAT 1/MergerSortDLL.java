@@ -11,7 +11,6 @@ class Node {
 
 public class MergerSortDLL {
     static Node head = null;
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
