@@ -12,7 +12,7 @@
 - Stack Permutations ✅
 
 # CAT–2 Syllabus
-- Maximum Sliding Window
+- Maximum Sliding Window ✅
 - Recover the BST
 - Views of Tree
 - Vertical Order Traversal
