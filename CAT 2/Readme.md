@@ -37,8 +37,17 @@
 - In problem statements : -1, N, null may indicate empty Node
 
 # 17-02-2025
-CAT 1 paper discussion
+### **CAT 1 paper discussion**
 - Even odd seperate is not two pointer approach it is iterative traversal
 - In PQ priority determined by node value not position
 - Minimum stack can be done with one stack using encryption 
 - In PQ if two nodes have same prioriy then FIFO
+
+# 19-02-2025
+
+### Recover the BST
+- Intentionally two nodes were swapped, reswap them to recover the BST
+- when traversing in inorder 
+  - 2 decreasing points then non adjacent nodes must be swapped
+  - 1 decreasing point adjacent nodes must be swapped
+- There might be a possibility 
