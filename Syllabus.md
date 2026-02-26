@@ -13,8 +13,14 @@
 
 # CAT–2 Syllabus
 - Maximum Sliding Window ✅
-- Recover the BST
+- Recover the BST ✅
 - Views of Tree
+    - Left
+    - Right
+    - Top
+    - Bottom
+    - Front
+    - Back
 - Vertical Order Traversal
 - Boundary Traversal
 - BFS, DFS
@@ -30,7 +36,7 @@
 - HashMap to TreeMap
 - Types of Sets
 - Distributing items when a person cannot take more than two items of the same type
-- Introduction – Basic Fibonacci Problem
+- Introduction to DP – Basic Fibonacci Problem
 - Longest Common Subsequence (LCS)
 - Longest Increasing Subsequence (LIS)
 - Rod Cutting Problem

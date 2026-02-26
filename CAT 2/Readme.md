@@ -51,3 +51,21 @@
   - 2 decreasing points then non adjacent nodes must be swapped
   - 1 decreasing point adjacent nodes must be swapped
 - There might be a possibility 
+
+
+# 20-02-2025
+???
+
+
+# 26-02-2025
+### Vertical Order Traversal
+
+- Root will be having horizontal distance 0
+- Left side verticals will be -ve and right side +ve
+- Print the nodes left to right top to bottom in verticals
+- Applications : 
+  - Nodes in same place -> ascending
+  - Nodes in same vertica -> take only unique (non duplicates)
+- Can use treemap to sort the verticals (keys) automatically
+- For Top view we need only the first element of the list
+- For bottom view we need only the last element of the list 
