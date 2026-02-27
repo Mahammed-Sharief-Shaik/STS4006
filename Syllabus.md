@@ -15,12 +15,12 @@
 - Maximum Sliding Window ✅
 - Recover the BST ✅
 - Views of Tree
-    - LeftT ✅
-    - RightT ✅
-    - FrontT ✅
-    - BackT ✅
-    - TopT ✅
-    - BottomT ✅
+    - Left ✅
+    - Right ✅
+    - Front ✅
+    - Back ✅
+    - Top ✅
+    - Bottom ✅
 - Vertical Order Traversal ✅
 - Boundary Traversal ✅
 - BFS, DFS
