@@ -69,3 +69,12 @@
 - Can use treemap to sort the verticals (keys) automatically
 - For Top view we need only the first element of the list
 - For bottom view we need only the last element of the list 
+
+# 27-02-2025
+### Boundary Traversal
+
+- Anti clickwise direction 
+- Traverse in order 
+  - left boundary
+  - leaf nodes
+  - right boundary (reverse bottom to top)

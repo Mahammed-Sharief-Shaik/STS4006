@@ -15,14 +15,14 @@
 - Maximum Sliding Window ✅
 - Recover the BST ✅
 - Views of Tree
-    - Left
-    - Right
-    - Top
-    - Bottom
-    - Front
-    - Back
-- Vertical Order Traversal
-- Boundary Traversal
+    - LeftT ✅
+    - RightT ✅
+    - FrontT ✅
+    - BackT ✅
+    - TopT ✅
+    - BottomT ✅
+- Vertical Order Traversal ✅
+- Boundary Traversal ✅
 - BFS, DFS
 - Dial’s Algorithm
 - Bellman–Ford Algorithm
