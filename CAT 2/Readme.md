@@ -1,4 +1,4 @@
-# 12-02-2025
+# 12-02-2026
 
 ### Maximum Sliding window
 
@@ -15,7 +15,7 @@
   - pollLast
 - Monotonic queue (Monotonically decreasing - queue elements will be in decreasing order)
 
-# 13-02-2025
+# 13-02-2026
 
 ### Non Linear Data Structures
 
@@ -36,7 +36,7 @@
   - +1
 - In problem statements : -1, N, null may indicate empty Node
 
-# 17-02-2025
+# 17-02-2026
 
 ### **CAT 1 paper discussion**
 
@@ -45,7 +45,7 @@
 - Minimum stack can be done with one stack using encryption
 - In PQ if two nodes have same prioriy then FIFO
 
-# 19-02-2025
+# 19-02-2026
 
 ### Recover the BST
 
@@ -55,11 +55,11 @@
   - 1 decreasing point adjacent nodes must be swapped
 - There might be a possibility
 
-# 20-02-2025
+# 20-02-2026
 
 ???
 
-# 26-02-2025
+# 26-02-2026
 
 ### Vertical Order Traversal
 
@@ -73,7 +73,7 @@
 - For Top view we need only the first element of the list
 - For bottom view we need only the last element of the list
 
-# 27-02-2025
+# 27-02-2026
 
 ### Boundary Traversal
 
@@ -83,7 +83,7 @@
   - leaf nodes
   - right boundary (reverse bottom to top)
 
-# 03-03-2025
+# 03-03-2026
 
 ### Graphs
 
@@ -132,3 +132,21 @@
     ```
 
 - For BFS we need to use Queue
+
+# 05-03-2026
+
+### Shortest path Algos : 
+- Dijkstras
+  - Disadvantages : Does not work for Negative edges
+  - TC : O(E V)
+- Belman ford
+- Dail's algo
+  - Works efficiently for small weights
+  - Along with from to weight we also need max weight
+  - In worst case all edges may have weight maxWeight and then the distance possible in worst case is E*maxWeight
+  - Create buckets from 0 to maxWeight*e
+  - bucket x represents that it is x kms from source
+  E + MW*V
+  Dail's Algo
+
+  - Relaxation
