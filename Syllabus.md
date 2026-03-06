@@ -23,8 +23,8 @@
     - Bottom ✅
 - Vertical Order Traversal ✅
 - Boundary Traversal ✅
-- BFS, DFS
-- Dial’s Algorithm
+- BFS, DFS ✅
+- Dial’s Algorithm ✅
 - Bellman–Ford Algorithm
 - Topological Sort
 - Heap Sort

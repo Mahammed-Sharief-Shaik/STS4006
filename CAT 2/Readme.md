@@ -140,7 +140,7 @@
   - Disadvantages : Does not work for Negative edges
   - TC : O(E V)
 - Belman ford
-- Dail's algo
+- ### Dail's algo
   - Works efficiently for small weights
   - Along with from to weight we also need max weight
   - In worst case all edges may have weight maxWeight and then the distance possible in worst case is E*maxWeight
@@ -150,3 +150,8 @@
   Dail's Algo
 
   - Relaxation
+
+# 06-03-2026
+### Bellman Ford Algorithm
+- Find cycles and handles negative edge weights
+- If the distance changes then there is a cycle (Intitally with Integer.MAX_VALUE)
