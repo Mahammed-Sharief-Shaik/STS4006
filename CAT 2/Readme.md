@@ -155,3 +155,23 @@
 ### Bellman Ford Algorithm
 - Find cycles and handles negative edge weights
 - If the distance changes then there is a cycle (Intitally with Integer.MAX_VALUE)
+
+- Why v-1 relaxations ?
+  - ```dist[src] + wt < dist[dest]```
+  - In each iteration we are updating only one distance from INT_MAX to shortest path 
+  - As source is always 0
+  - we need v-1 iterations (atleast) to reach 
+
+- How can we say there is a cycle in graph ?
+  - After v-1 iterations we must find shortest path to all
+  - But even after v-1 iterations, we got some shortest path then there must be a cycle in graph
+
+# 10-03-2026
+### Topological Sort (Kahn's Algorithm)
+
+- **In-Degree** : No of incoming edges to a vertex
+- **Out-Degree** : No of outgoing edges going out from a vertex
+- There must be a independent vertex(In Degree - 0) in order to perform topological sort
+- If no independent vertex then **NOT POSSIBLE**
+
+- After polling a vertex we must decrease indegree of all of its neighbours by one

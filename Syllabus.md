@@ -25,8 +25,8 @@
 - Boundary Traversal ✅
 - BFS, DFS ✅
 - Dial’s Algorithm ✅
-- Bellman–Ford Algorithm
-- Topological Sort
+- Bellman–Ford Algorithm ✅
+- Topological Sort ✅
 - Heap Sort
 - Binomial Heap
 - K-ary Heap
