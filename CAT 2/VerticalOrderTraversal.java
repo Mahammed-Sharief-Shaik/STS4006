@@ -3,22 +3,18 @@ import java.util.*;
 class Node {
     int data;
     Node left, right;
-
     public Node(int data) {
         this.data = data;
     }
-
 }
 
 class Pair {
     Node node;
     int vertical;
-
     public Pair(Node node, int vertical) {
         this.node = node;
         this.vertical = vertical;
     }
-
 }
 
 public class VerticalOrderTraversal {

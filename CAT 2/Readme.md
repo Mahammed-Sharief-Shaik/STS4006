@@ -52,6 +52,7 @@
 - Intentionally two nodes were swapped, reswap them to recover the BST
 - when traversing in inorder
   - 2 decreasing points then non adjacent nodes must be swapped
+    - big number in 1st decreasing point swap with small in 2nd decreasing point
   - 1 decreasing point adjacent nodes must be swapped
 - There might be a possibility
 

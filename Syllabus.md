@@ -27,8 +27,8 @@
 - Dial’s Algorithm ✅
 - Bellman–Ford Algorithm ✅
 - Topological Sort ✅
-- Heap Sort
-- Binomial Heap
+- Heap Sort ✅
+- Binomial Heap 
 - K-ary Heap
 - Winner Tree
 

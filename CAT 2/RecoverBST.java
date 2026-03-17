@@ -74,7 +74,7 @@ public class RecoverBST {
         // so we need to create a Node with firstVal then point root to it
         root = new Node(firstVal);
         queue.offer(root);
-
+        // -1 indicates null
         while (!queue.isEmpty()) {
             Node parent = queue.poll();
             int left = sc.nextInt();

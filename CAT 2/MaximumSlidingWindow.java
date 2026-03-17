@@ -32,8 +32,12 @@ public class MaximumSlidingWindow {
                 anything less than i-k will not be in the window
             */ 
 
+            // Remove elements before start of window i is end and i-k is start
             if(!dq.isEmpty() && dq.peekFirst()<=i-k) dq.pollFirst();
+
+            // remove elements that are less than current at end of dequeue as they can never be the maximum
             while(!dq.isEmpty() && arr[dq.peekLast()]<=curr) dq.pollLast();
+
             dq.offerLast(i);
             if(i>=k-1) result.add(arr[dq.peekFirst()]);
         }
