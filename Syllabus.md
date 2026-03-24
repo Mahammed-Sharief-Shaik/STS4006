@@ -28,9 +28,10 @@
 - Bellman–Ford Algorithm ✅
 - Topological Sort ✅
 - Heap Sort ✅
-- Binomial Heap 
+
+<!-- - Binomial Heap 
 - K-ary Heap
-- Winner Tree
+- Winner Tree -->
 
 # Remaining Syllabus
 - HashMap to TreeMap

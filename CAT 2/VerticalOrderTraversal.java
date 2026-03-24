@@ -65,6 +65,8 @@ public class VerticalOrderTraversal {
             List<Integer> list = map.get(v);
             // list.forEach((System.out::print)+" ");
             System.out.print(list + " ");
+            // System.out.print(list.get(0) + " ");
+            // System.out.print(list.get(list.size()-1) + " ");
         }
 
     }

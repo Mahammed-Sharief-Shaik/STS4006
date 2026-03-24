@@ -26,6 +26,7 @@ class Pair {
         this.weight = weight;
     }
 
+    
 }
 
 public class DailsAlgo {

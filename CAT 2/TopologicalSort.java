@@ -22,10 +22,10 @@ public class TopologicalSort {
             indegree[dest]++;
         }
 
-        // bfsTopologicalSort(indegree);
+        bfsTopologicalSort(indegree);
         System.out.println();
-        boolean[] visited = new boolean[V];
-        topologicalSortDFS(indegree, visited);
+        // boolean[] visited = new boolean[V];
+        // topologicalSortDFS(indegree, visited);
     }
 
     static void bfsTopologicalSort(int[] indegree) {
@@ -37,7 +37,7 @@ public class TopologicalSort {
         }
 
         if (queue.isEmpty()) {
-            System.out.println("No Independant Vertex");
+            System.out.println("No Independent Vertex");
             return;
         }
         while (!queue.isEmpty()) {

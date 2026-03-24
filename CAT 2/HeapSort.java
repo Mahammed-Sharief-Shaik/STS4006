@@ -8,13 +8,22 @@ public class HeapSort{
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int[] arr=new int[n];
+
+        // PriorityQueue<Integer> pq = new PriorityQueue<>();
+
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
+            // pq.add(sc.nextInt());
         }
-        heapsort(n,arr);
-        for(int i=0;i<n;i++){
-            System.out.print(arr[i]+ " ");
-        }
+
+        // System.out.println(pq);
+        // while(!pq.isEmpty()){
+        //     System.out.print(pq.poll()+" ");
+        // }
+        // heapsort(n,arr);
+        // for(int i=0;i<n;i++){
+        //     System.out.print(arr[i]+ " ");
+        // }
     }
     static void heapsort(int n,int[] arr){
         for(int i=(n/2)-1;i>=0;i--){
