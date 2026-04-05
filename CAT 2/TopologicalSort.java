@@ -35,7 +35,6 @@ public class TopologicalSort {
                 queue.add(i);
             }
         }
-
         if (queue.isEmpty()) {
             System.out.println("No Independent Vertex");
             return;
@@ -43,7 +42,6 @@ public class TopologicalSort {
         while (!queue.isEmpty()) {
             int curr = queue.poll();
             System.out.print(curr + " ");
-
             for (int neigh : adj.get(curr)) {
                 indegree[neigh]--;
                 if (indegree[neigh] == 0) {

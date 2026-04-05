@@ -12,7 +12,7 @@
 - Stack Permutations ✅
 
 # CAT–2 Syllabus
-- Maximum Sliding Window ✅
+- Maximum Sliding Window ✅ 
 - Recover the BST ✅
 - Views of Tree
     - Left ✅
@@ -34,8 +34,8 @@
 - Winner Tree -->
 
 # Remaining Syllabus
-- HashMap to TreeMap
-- Types of Sets
+- HashMap to TreeMap ✅
+- Types of Sets ✅
 - Distributing items when a person cannot take more than two items of the same type
 - Introduction to DP – Basic Fibonacci Problem
 - Longest Common Subsequence (LCS)
