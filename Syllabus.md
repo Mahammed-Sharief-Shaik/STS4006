@@ -37,8 +37,8 @@
 - HashMap to TreeMap ✅
 - Types of Sets ✅
 - Distributing items when a person cannot take more than two items of the same type ✅
-- Introduction to DP – Basic Fibonacci Problem
-- Longest Common Subsequence (LCS)
+- Introduction to DP – Basic Fibonacci Problem ✅
+- Longest Common Subsequence (LCS) ✅
 - Longest Increasing Subsequence (LIS)
 - Rod Cutting Problem
 - Longest Palindromic Subsequence
