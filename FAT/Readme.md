@@ -53,3 +53,13 @@
   - Math.max(lcs(s1,s2, i, j-1),lcs(s1,s2, i-1, j))
 - Base : i<0 | j<0 ---> return 0
 
+# 10-04-2026
+
+### Longest Increasing Subsequence (LIS)
+
+# 16-04-2026
+### Longest Palindromic subsequence (LPS)
+
+# 17-04-2026
+### Subset sum problem
+

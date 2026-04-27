@@ -39,8 +39,8 @@
 - Distributing items when a person cannot take more than two items of the same type ✅
 - Introduction to DP – Basic Fibonacci Problem ✅
 - Longest Common Subsequence (LCS) ✅
-- Longest Increasing Subsequence (LIS)
+- Longest Increasing Subsequence (LIS) ✅
 - Rod Cutting Problem
-- Longest Palindromic Subsequence
+- Longest Palindromic Subsequence ✅
 - Subset Sum Problem
 - 0/1 Knapsack
