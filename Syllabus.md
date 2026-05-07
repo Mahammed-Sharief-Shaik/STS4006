@@ -42,5 +42,5 @@
 - Longest Increasing Subsequence (LIS) ✅
 - Rod Cutting Problem
 - Longest Palindromic Subsequence ✅
-- Subset Sum Problem
-- 0/1 Knapsack
+- Subset Sum Problem ✅
+- 0/1 Knapsack ✅
