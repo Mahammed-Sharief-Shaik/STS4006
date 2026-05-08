@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class SubSetSum {
     public static void main(String[] args) {
@@ -29,9 +27,7 @@ public class SubSetSum {
 
     static void printSubset(int[] arr, int target) {
         int n = arr.length;
-
         boolean[][] dp = new boolean[n + 1][target + 1];
-
         // Sum 0 is always possible
         for (int i = 0; i <= n; i++) {
             dp[i][0] = true;
@@ -39,40 +35,30 @@ public class SubSetSum {
 
         // Fill DP table
         for (int i = 1; i <= n; i++) {
-
             for (int j = 1; j <= target; j++) {
-
                 boolean notTake = dp[i - 1][j];
-
                 boolean take = false;
-
                 if (arr[i - 1] <= j) {
                     take = dp[i - 1][j - arr[i - 1]];
                 }
-
                 dp[i][j] = take || notTake;
             }
         }
-
         // No subset exists
         if (!dp[n][target]) {
             System.out.println("No subset found");
             return;
         }
-
         // Backtracking to print subset
         List<Integer> subset = new ArrayList<>();
-
         int i = n;
         int j = target;
 
         while (i > 0 && j > 0) {
-
             // If value came from top
             if (dp[i - 1][j]) {
                 i--;
             }
-
             // Current element was taken
             else {
                 subset.add(arr[i - 1]);
@@ -80,9 +66,7 @@ public class SubSetSum {
                 i--;
             }
         }
-
         System.out.println("Subset: " + subset);
-
     }
 
     static boolean subsetSumTabulation(int[] arr, int target) {
@@ -123,7 +107,6 @@ public class SubSetSum {
         }
 
         notTake = subsetMemo(arr, target, currentIndex + 1, memo);
-
         return memo[currentIndex][target] = take || notTake;
     }
 
@@ -140,7 +123,6 @@ public class SubSetSum {
         }
 
         notTake = subsetSumRecursive(arr, target, currentIndex + 1);
-
         return take || notTake;
     }
 }
